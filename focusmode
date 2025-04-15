@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusMode Daily | Switch On. Stay Sharp.</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #0a2540;
+      padding: 2rem;
+      color: white;
+      text-align: center;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: #88c9f9;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .product-image {
+      width: 300px;
+      display: block;
+      margin: 1rem auto;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      margin: 0.5rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+    .benefits li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #007bff;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-width: 400px;
+      margin: 1rem auto;
+    }
+    input[type="email"] {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FocusMode Daily</h1>
+    <p class="tagline">Switch On. Stay Sharp.</p>
+  </header>
+
+  <div class="section">
+    <img class="product-image" src="/mnt/data/A_3D-rendered_digital_image_displays_a_dark_blue_c.png" alt="FocusMode Daily Bottle">
+    <p>FocusMode Daily is your clean, science-backed supplement for enhanced focus, sustained energy, and mental clarity. No crashes. No jitters. Just clean productivity support to power you through your day.</p>
+    <a href="#" class="btn">Shop Now - 15% Launch Offer</a>
+  </div>
+
+  <div class="section benefits">
+    <h2>Why You’ll Love It</h2>
+    <ul>
+      <li>Boosts productivity without jitters</li>
+      <li>Enhances memory and mental clarity</li>
+      <li>Combats stress and fatigue</li>
+      <li>Backed by neuroscience</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Real People. Real Results.</h2>
+    <blockquote>
+      “FocusMode keeps me locked in during 12-hour coding days.” <br> – Jeremy, Software Developer
+    </blockquote>
+    <blockquote>
+      “It’s my secret weapon for deep work and zero burnout.” <br> – Melanie, Freelance Designer
+    </blockquote>
+  </div>
+
+  <div class="section">
+    <h2>Get 15% Off Your First Order</h2>
+    <p>Subscribe for updates and an instant discount code sent to your inbox.</p>
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <input type="submit" value="Get My Discount" />
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 FocusMode™. All rights reserved.
+  </footer>
+</body>
+</html>
